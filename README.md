@@ -40,3 +40,18 @@ https://cdn.ipip.net/17mon/besttrace4linux.zip
 unzip besttrace4linux.zip
 #使用
 ./besttrace -q 1 这里是目标IP
+
+秋水逸冰大佬的Bench.sh脚本
+特点：
+显示当前测试的各种系统信息；
+取自世界多处的知名数据中心的测试点，下载测试比较全面；
+支持 IPv6 下载测速；
+IO 测试三次，并显示平均值。
+使用：
+wget -qO- bench.sh | bash
+#或者
+curl -Lso- bench.sh | bash
+#或者
+wget -qO- 86.re/bench.sh | bash
+#或者
+curl -so- 86.re/bench.sh | bash
